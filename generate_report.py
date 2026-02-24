@@ -53,8 +53,8 @@ def generate_exploring_ai_report(input_filename, output_filename):
 
 # --- EXECUTION ---
 if __name__ == "__main__":
-    # Configuration
-    SOURCE_FILE = "STT25_7806_AI_Readiness_Report_v2.pdf"
-    OUTPUT_FILE = "STT25_Personalised_Exploring_AI.pdf"
+    # Configuration (use your own input PDF; output name is generic)
+    SOURCE_FILE = "ai_readiness_report.pdf"
+    OUTPUT_FILE = "personalised_exploring_ai.pdf"
     
     generate_exploring_ai_report(SOURCE_FILE, OUTPUT_FILE)

@@ -58,8 +58,8 @@ python generate_report.py
 ```
 
 **Config (in script):**  
-- Input: `STT25_7806_AI_Readiness_Report_v2.pdf`  
-- Output: `STT25_Personalised_Exploring_AI.pdf`
+- Input: `ai_readiness_report.pdf`  
+- Output: `personalised_exploring_ai.pdf`
 
 ### 3. Single personality report — `generate_all_reports.py`
 
@@ -79,10 +79,10 @@ python generate_complete_suite.py
 
 **Output files:**
 
-- `STT25_Personalised_Exploring_AI.pdf`
-- `STT25_Personalised_Building_AI.pdf`
-- `STT25_Personalised_Integrating_AI.pdf`
-- `STT25_Personalised_Leading_AI.pdf`
+- `personalised_exploring_ai.pdf`
+- `personalised_building_ai.pdf`
+- `personalised_integrating_ai.pdf`
+- `personalised_leading_ai.pdf`
 
 ## Project structure
 

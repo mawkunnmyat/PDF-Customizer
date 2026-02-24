@@ -11,9 +11,9 @@ import sys
 from pathlib import Path
 from typing import Optional
 
-# Default configuration
-DEFAULT_INPUT_FILE = "STT25_7806_AI_Readiness_Report_v2.pdf"
-DEFAULT_OUTPUT_FILE = "STT25_Exploring_AI_Report.pdf"
+# Default configuration (generic names; override via CLI)
+DEFAULT_INPUT_FILE = "ai_readiness_report.pdf"
+DEFAULT_OUTPUT_FILE = "exploring_ai_report.pdf"
 
 try:
     from pypdf import PdfReader, PdfWriter

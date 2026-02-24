@@ -19,7 +19,7 @@ def generate_personality_report(personality_type, input_filename):
         return
 
     target_page_index = personality_map[personality_type]
-    output_filename = f"STT25_Personalised_{personality_type}_AI.pdf"
+    output_filename = f"personalised_{personality_type.lower()}_ai.pdf"
 
     if not os.path.exists(input_filename):
         print(f"❌ Error: Input file '{input_filename}' not found.")
@@ -53,7 +53,7 @@ def generate_personality_report(personality_type, input_filename):
 
 # --- MAIN EXECUTION ---
 if __name__ == "__main__":
-    SOURCE_FILE = "STT25_7806_AI_Readiness_Report_v2.pdf"
+    SOURCE_FILE = "ai_readiness_report.pdf"
     
     print("🚀 Starting Batch Generation...")
     
